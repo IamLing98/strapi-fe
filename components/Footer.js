@@ -1,35 +1,24 @@
 export default function Footer() {
   return (
     <>
-      <footer className="pt-50 pb-20 bg-grey">
+      <footer className="pt-20 pb-20 bg-grey">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3 col-md-6">
+            <div
+              className="col-lg-12 col-md-12"
+              style={{ textAlign: "center" }}
+            >
               <div className="sidebar-widget wow fadeInUp animated mb-30">
-                <div className="widget-header-2 position-relative mb-30">
-                  <h5 className="mt-5 mb-30">About me</h5>
-                </div>
+                <div className="widget-header-2 position-relative mb-30"></div>
                 <div className="textwidget">
-                  <p>
-                    Start writing, no matter what. The water does not flow until
-                    the faucet is turned on.
-                  </p>
-                  <p>
-                    <strong className="color-black">Address</strong>
-                    <br />
-                    123 Main Street
-                    <br />
-                    New York, NY 10001
-                  </p>
-                  <p>
-                    <strong className="color-black">Follow me</strong>
-                    <br />
-                  </p>
+                  <div className="newsletter">
+                    <p className="font-medium">I am Linh © 2022</p>
+                  </div>
                   <ul className="header-social-network d-inline-block list-inline color-white mb-20">
                     <li className="list-inline-item">
                       <a
                         className="fb"
-                        href="#"
+                        href="https://www.facebook.com/linkfromthemid/"
                         target="_blank"
                         title="Facebook"
                       >
@@ -39,11 +28,11 @@ export default function Footer() {
                     <li className="list-inline-item">
                       <a
                         className="tw"
-                        href="#"
+                        href="https://www.linkedin.com/in/linh-%C4%91o%C3%A0n-v%C4%83n-a66041244"
                         target="_blank"
                         title="Tweet now"
                       >
-                        <i className="elegant-icon social_twitter" />
+                        <i className="elegant-icon social_linkedin" />
                       </a>
                     </li>
                     <li className="list-inline-item">
@@ -55,121 +44,6 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-md-6">
-              <div
-                className="sidebar-widget widget_categories wow fadeInUp animated mb-30"
-                data-wow-delay="0.1s"
-              >
-                <div className="widget-header-2 position-relative mb-30">
-                  <h5 className="mt-5 mb-30">Quick link</h5>
-                </div>
-                <ul className="font-small">
-                  <li className="cat-item cat-item-2">
-                    <a href="#">About me</a>
-                  </li>
-                  <li className="cat-item cat-item-4">
-                    <a href="#">Help &amp; Support</a>
-                  </li>
-                  <li className="cat-item cat-item-5">
-                    <a href="#">​​Licensing Policy</a>
-                  </li>
-                  <li className="cat-item cat-item-6">
-                    <a href="#">Refund Policy</a>
-                  </li>
-                  <li className="cat-item cat-item-7">
-                    <a href="#">Hire me</a>
-                  </li>
-                  <li className="cat-item cat-item-7">
-                    <a href="#">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div
-                className="sidebar-widget widget_tagcloud wow fadeInUp animated mb-30"
-                data-wow-delay="0.2s"
-              >
-                <div className="widget-header-2 position-relative mb-30">
-                  <h5 className="mt-5 mb-30">Tagcloud</h5>
-                </div>
-                <div className="tagcloud mt-50">
-                  <a className="tag-cloud-link" href="category.html.htm">
-                    beautiful
-                  </a>
-                  <a className="tag-cloud-link" href="category.html.htm">
-                    New York
-                  </a>
-                  <a className="tag-cloud-link" href="category.html.htm">
-                    droll
-                  </a>
-                  <a className="tag-cloud-link" href="category.html.htm">
-                    intimate
-                  </a>
-                  <a className="tag-cloud-link" href="category.html.htm">
-                    loving
-                  </a>
-                  <a className="tag-cloud-link" href="category.html.htm">
-                    travel
-                  </a>
-                  <a className="tag-cloud-link" href="category.html.htm">
-                    fighting{' '}
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div
-                className="sidebar-widget widget_newsletter wow fadeInUp animated mb-30"
-                data-wow-delay="0.3s"
-              >
-                <div className="widget-header-2 position-relative mb-30">
-                  <h5 className="mt-5 mb-30">Newsletter</h5>
-                </div>
-                <div className="newsletter">
-                  <p className="font-medium">
-                    Subscribe to our newsletter and get our newest updates right
-                    on your inbox.
-                  </p>
-                  <form className="input-group form-subcriber mt-30 d-flex">
-                    <input
-                      type="email"
-                      className="form-control bg-white font-small"
-                      placeholder="Enter your email"
-                    />
-                    <button className="btn bg-primary text-white" type="submit">
-                      Subscribe
-                    </button>
-                    <label className="mt-20">
-                      {' '}
-                      <input
-                        className="mr-5"
-                        name="name"
-                        type="checkbox"
-                        defaultValue={1}
-                        required
-                      />{' '}
-                      I agree to the{' '}
-                      <a href="#" target="_blank">
-                        terms &amp; conditions
-                      </a>{' '}
-                    </label>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="footer-copy-right pt-30 mt-20 wow fadeInUp animated">
-            <p className="float-md-left font-small text-muted">
-              © 2020, Stories - Personal Blog HTML Template{' '}
-            </p>
-            <p className="float-md-right font-small text-muted">
-              Design by{' '}
-              <a href="../../../index.htm" target="_blank">
-                AliThemes
-              </a>{' '}
-              | All rights reserved
-            </p>
           </div>
         </div>
       </footer>

@@ -1,18 +1,21 @@
-import BlogCategory from './BlogCategory';
+import Banner from "./Banner";
+import BlogCategory from "./BlogCategory";
 
 export default function Container() {
   return (
     <div className="container">
+      <Banner />
+      <BlogCategory />
       <div className="hot-tags pt-30 pb-30 font-small align-self-center">
         <div className="widget-header-3">
           <div className="row align-self-center">
             <div className="col-md-4 align-self-center">
-              <h5 className="widget-title">Featured posts</h5>
+              <h5 className="widget-title">Bài viết</h5>
             </div>
             <div className="col-md-8 text-md-right font-small align-self-center">
               <p className="d-inline-block mr-5 mb-0">
                 <i className="elegant-icon icon_tag_alt mr-5 text-muted" />
-                Hot tags:
+                Từ khóa tìm kiếm:
               </p>
               <ul className="list-inline d-inline-block tags">
                 <li className="list-inline-item">
@@ -22,7 +25,7 @@ export default function Container() {
                   <a href="#"># Inspiration</a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="#"># Work online</a>
+                  <a href="#"># Làm remote</a>
                 </li>
                 <li className="list-inline-item">
                   <a href="#"># Stay home</a>
@@ -42,7 +45,7 @@ export default function Container() {
                   <div
                     className="thumb-overlay img-hover-slide position-relative"
                     style={{
-                      backgroundImage: 'url(assets/imgs/news/news-4.jpg)'
+                      backgroundImage: "url(assets/imgs/news/news-4.jpg)",
                     }}
                   >
                     <a className="img-link" href="single.html.htm" />
@@ -79,7 +82,7 @@ export default function Container() {
                   <div
                     className="thumb-overlay img-hover-slide position-relative"
                     style={{
-                      backgroundImage: 'url(assets/imgs/news/news-6.jpg)'
+                      backgroundImage: "url(assets/imgs/news/news-6.jpg)",
                     }}
                   >
                     <a className="img-link" href="single.html.htm" />
@@ -117,7 +120,7 @@ export default function Container() {
             <div className="post-card-1 border-radius-10 hover-up">
               <div
                 className="post-thumb thumb-overlay img-hover-slide position-relative"
-                style={{ backgroundImage: 'url(assets/imgs/news/news-1.jpg)' }}
+                style={{ backgroundImage: "url(assets/imgs/news/news-1.jpg)" }}
               >
                 <a className="img-link" href="single.html.htm" />
                 <span className="top-right-icon bg-success">
@@ -184,7 +187,7 @@ export default function Container() {
             <div className="post-card-1 border-radius-10 hover-up">
               <div
                 className="post-thumb thumb-overlay img-hover-slide position-relative"
-                style={{ backgroundImage: 'url(assets/imgs/news/news-7.jpg)' }}
+                style={{ backgroundImage: "url(assets/imgs/news/news-7.jpg)" }}
               >
                 <a className="img-link" href="single.html.htm" />
                 <ul className="social-share">
@@ -248,7 +251,7 @@ export default function Container() {
             <div className="post-card-1 border-radius-10 hover-up">
               <div
                 className="post-thumb thumb-overlay img-hover-slide position-relative"
-                style={{ backgroundImage: 'url(assets/imgs/news/news-9.jpg)' }}
+                style={{ backgroundImage: "url(assets/imgs/news/news-9.jpg)" }}
               >
                 <a className="img-link" href="single.html.htm" />
                 <ul className="social-share">
@@ -312,7 +315,7 @@ export default function Container() {
             <div className="post-card-1 border-radius-10 hover-up">
               <div
                 className="post-thumb thumb-overlay img-hover-slide position-relative"
-                style={{ backgroundImage: 'url(assets/imgs/news/news-11.jpg)' }}
+                style={{ backgroundImage: "url(assets/imgs/news/news-11.jpg)" }}
               >
                 <a className="img-link" href="single.html.htm" />
                 <span className="top-right-icon bg-info">
