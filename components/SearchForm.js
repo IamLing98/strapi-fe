@@ -67,9 +67,9 @@ export default function SearchForm() {
                     </a>
                   </div>
                   <div className="post-content media-body">
-                    <h6>
+                    <h5>
                       <a href="category.html.htm">Travel Tips</a>
-                    </h6>
+                    </h5>
                     <p className="text-muted font-small">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
@@ -84,9 +84,9 @@ export default function SearchForm() {
                     </a>
                   </div>
                   <div className="post-content media-body">
-                    <h6>
+                    <h5>
                       <a href="category.html.htm">Lifestyle</a>
-                    </h6>
+                    </h5>
                     <p className="text-muted font-small">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
@@ -101,9 +101,9 @@ export default function SearchForm() {
                     </a>
                   </div>
                   <div className="post-content media-body">
-                    <h6>
+                    <h5>
                       <a href="category.html.htm">Hotel Review</a>
-                    </h6>
+                    </h5>
                     <p className="text-muted font-small">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>

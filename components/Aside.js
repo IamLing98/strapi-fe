@@ -13,24 +13,19 @@ export default function Aside() {
           <div className="widget_nav_menu">
             <ul>
               <li className="cat-item cat-item-2">
-                <a href="category.html.htm">Travel tips</a>{' '}
-                <span className="post-count">30</span>
+                <a href="category.html.htm">Travel tips</a> <span className="post-count">30</span>
               </li>
               <li className="cat-item cat-item-3">
-                <a href="category-grid.html.htm">Book review</a>{' '}
-                <span className="post-count">25</span>
+                <a href="category-grid.html.htm">Book review</a> <span className="post-count">25</span>
               </li>
               <li className="cat-item cat-item-4">
-                <a href="category-list.html.htm">Hotel review</a>{' '}
-                <span className="post-count">16</span>
+                <a href="category-list.html.htm">Hotel review</a> <span className="post-count">16</span>
               </li>
               <li className="cat-item cat-item-5">
-                <a href="category-masonry.html.htm">Destinations </a>{' '}
-                <span className="post-count">22</span>
+                <a href="category-masonry.html.htm">Destinations </a> <span className="post-count">22</span>
               </li>
               <li className="cat-item cat-item-6">
-                <a href="category-big.html.htm">Lifestyle</a>{' '}
-                <span className="post-count">25</span>
+                <a href="category-big.html.htm">Lifestyle</a> <span className="post-count">25</span>
               </li>
             </ul>
           </div>
@@ -50,11 +45,9 @@ export default function Aside() {
                     </a>
                   </div>
                   <div className="post-content media-body">
-                    <h6 className="post-title mb-15 text-limit-2-row font-medium">
-                      <a href="single.html.htm">
-                        The Life of a Travel Writer with David Farley
-                      </a>
-                    </h6>
+                    <h5 className="post-title mb-15 text-limit-2-row font-medium">
+                      <a href="single.html.htm">The Life of a Travel Writer with David Farley</a>
+                    </h5>
                     <div className="entry-meta meta-1 float-left font-x-small text-uppercase">
                       <span className="post-on">05 August</span>
                       <span className="post-by has-dot">300 views</span>
@@ -70,11 +63,9 @@ export default function Aside() {
                     </a>
                   </div>
                   <div className="post-content media-body">
-                    <h6 className="post-title mb-15 text-limit-2-row font-medium">
-                      <a href="single.html.htm">
-                        Why Don’t More Black American Women Travel Solo?
-                      </a>
-                    </h6>
+                    <h5 className="post-title mb-15 text-limit-2-row font-medium">
+                      <a href="single.html.htm">Why Don’t More Black American Women Travel Solo?</a>
+                    </h5>
                     <div className="entry-meta meta-1 float-left font-x-small text-uppercase">
                       <span className="post-on">12 August</span>
                       <span className="post-by has-dot">23k views</span>
@@ -90,11 +81,9 @@ export default function Aside() {
                     </a>
                   </div>
                   <div className="post-content media-body">
-                    <h6 className="post-title mb-15 text-limit-2-row font-medium">
-                      <a href="single.html.htm">
-                        The 22 Best Things to See and Do in Bangkok
-                      </a>
-                    </h6>
+                    <h5 className="post-title mb-15 text-limit-2-row font-medium">
+                      <a href="single.html.htm">The 22 Best Things to See and Do in Bangkok</a>
+                    </h5>
                     <div className="entry-meta meta-1 float-left font-x-small text-uppercase">
                       <span className="post-on">27 August</span>
                       <span className="post-by has-dot">23k views</span>
@@ -111,11 +100,7 @@ export default function Aside() {
             <h5 className="mt-5 mb-30">Advertise banner</h5>
           </div>
           <a href="../../../user/alithemes/portfolio.htm" target="_blank">
-            <img
-              className="advertise-img border-radius-5"
-              src="assets/imgs/ads/ads-1.jpg"
-              alt=""
-            />
+            <img className="advertise-img border-radius-5" src="assets/imgs/ads/ads-1.jpg" alt="" />
           </a>
         </div>
       </div>

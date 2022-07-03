@@ -40,6 +40,7 @@ TABLE CONTENT
 @import url(vendor/animate.min.css);
 @import url(vendor/nice-select.css);
 @import url(vendor/perfect-scrollbar.css);
+@import url(slick.css);
 
 /*Google fonts
 	font-family: 'Crimson Text', serif;
@@ -177,7 +178,8 @@ button.bg-primary:hover {
 
 /* GENERAL */
 body {
-  font-family: 'Noto Sans JP', sans-serif;
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  font-family:  Noto Sans;
   font-weight: normal;
   font-style: normal;
   font-size: 14px;
@@ -192,9 +194,11 @@ h6,
 .btn,
 .post-title {
   font-style: normal;
-  font-weight: 500;
+  font-weight: bolder;
   text-transform: none;
-  font-family: 'Noto Sans JP', sans-serif;
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  
+  font-family:  Noto Sans;
 }
 p {
   margin-bottom: 1.2em;
@@ -230,7 +234,7 @@ a,
   outline: none;
 }
 a {
-  color: var(--color-muted);
+  color: black;
 }
 a:hover {
   color: var(--color-primary);
@@ -725,7 +729,7 @@ header .search-icon .ti-close,
 .search-header {
   border-bottom-width: 3px;
   border-bottom-style: solid;
-  border-bottom-color: var(--color-muted);
+  border-bottom-color: black;
   font-style: italic;
 }
 .search-header .form-control {
@@ -760,11 +764,20 @@ header .search-icon .ti-close,
 }
 
 /*Main header*/
+/* .main-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  opacity: 1;
+  z-index: 99999;
+} */
 .main-header .main-nav ul li a,
 .nav-topbar li a {
   position: relative;
   padding: 15px 0;
   display: block;
+  font-size: 16px !important;
 }
 .main-header .main-nav ul li > a::after {
   content: '';
@@ -801,7 +814,7 @@ header .search-icon .ti-close,
   padding-left: 5px;
   position: absolute;
   right: 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 .nav-topbar
   li.menu-item-has-children
@@ -814,14 +827,17 @@ header .search-icon .ti-close,
   padding-right: 8px;
   position: absolute;
   right: 0;
-  font-size: 14px;
+  font-size: 16px;
+  color: black !important;
+  font-weight: bold;
 }
 .nav-topbar ul.sub-menu,
 .main-header .main-nav ul ul.sub-menu {
   text-align: left;
   position: absolute;
-  min-width: 140px;
+  min-width: 250px;
   background: #fff;
+  color:black !important;
   left: 0;
   top: 130%;
   visibility: hidden;
@@ -1898,4 +1914,9 @@ pre {
   100% {
     box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
   }
+}
+
+
+.font-header-nav{
+  font-size: 16px !important;
 }

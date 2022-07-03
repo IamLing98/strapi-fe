@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
@@ -9,23 +10,17 @@ export default function Document() {
       <Head>
         <meta charset="utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
-        <title>Stories - Personal Blog HTML Template</title>
+        <title>I Dont Think So</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link
-          rel="shortcut icon"
-          type="image/x-icon"
-          href="/static/assets/template/imgs/theme/favicon.png"
-        />
+        <link rel="shortcut icon" type="image/x-icon" href="/static/assets/template/imgs/theme/favicon.png" />
         {/* <!-- NewsBoard CSS  --> */}
         <link rel="stylesheet" href="/static/assets/template/css/style.css" />
         <link rel="stylesheet" href="/static/assets/template/css/widgets.css" />
-        <link
-          rel="stylesheet"
-          href="/static/assets/template/css/responsive.css"
-        />
+        <link rel="stylesheet" href="/static/assets/template/css/responsive.css" />
       </Head>
       <body>
+        <div class="scroll-progress primary-bg"></div>
         <Main />
         <NextScript />
         <script src="/static/assets/template/js/vendor/modernizr-3.5.0.min.js"></script>
@@ -33,6 +28,12 @@ export default function Document() {
         <script src="/static/assets/template/js/vendor/popper.min.js"></script>
         <script src="/static/assets/template/js/vendor/bootstrap.min.js"></script>
         <script src="/static/assets/template/js/vendor/jquery.slicknav.js"></script>
+        <link
+          rel="stylesheet"
+          type="text/css"
+          charset="UTF-8"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+        />
         <link
           rel="stylesheet"
           type="text/css"

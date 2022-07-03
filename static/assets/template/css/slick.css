@@ -1,0 +1,9 @@
+.slick-slide{
+    width: 350px !important;
+    margin: 0 15px !important;
+    min-height: 152px !important;
+}
+
+.slick-track{
+    margin-left: -15px;
+}

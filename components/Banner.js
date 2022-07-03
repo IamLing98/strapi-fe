@@ -7,7 +7,7 @@ export default function Banner() {
   const { banner } = useSelector((store) => store?.indexReducer);
 
   return (
-    <div className="featured-1">
+    <div className="featured-1" style={{ backgroundColor: banner?.backgroundColor }}>
       <div className="container">
         <div className="row">
           <div className="col-lg-6 align-self-center">
@@ -22,13 +22,14 @@ export default function Banner() {
 
             <Typewriter
               options={{
-                strings: [banner?.infoText],
+                strings: ["I donk think so", "Nghĩ khác đi, làm khác đi"],
                 autoStart: true,
                 loop: true,
+                style: { color: banner?.textColor },
               }}
             />
             {/* </p> */}
-            <h2>
+            <h2 style={{ color: banner?.textColor }}>
               {banner?.heading} <span> {banner?.btnText}</span>
             </h2>
           </div>
