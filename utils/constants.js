@@ -1,6 +1,6 @@
 const baseApiUrl =
   process.env.NODE_ENV === "production"
-    ? "http://13.213.71.62:1337"
-    : "http://13.213.71.62:1337";
+    ? "http://18.136.181.250"
+    : "http://18.136.181.250";
 
 export default baseApiUrl;
